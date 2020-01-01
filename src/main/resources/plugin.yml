@@ -1,0 +1,17 @@
+name: HomesPlugin
+version: ${project.version}
+main: me.fyronfd.homesplugin.HomesPlugin
+api-version: 1.13
+authors: [FyronFD]
+description: Create and set homes
+commands:
+  SetHome:
+    description: Sets the player's home
+    aliases: sh
+    usage: /<command> HomeName
+  Home:
+    description: Sends the player to their home
+    usage: /<command> HomeName
+  Homes:
+    description: Lists all homes the player has created
+    usage: /<command>
